@@ -1,0 +1,18 @@
+export default {
+  white: '#FFFFFF',
+  black: '#000000',
+  blue: '#007AFF',
+  red: '#FF3B30',
+  textGray: '#B5B5BE',
+  textGrayLight: '#92929D',
+  textBold: '#171725',
+  shadowColor: 'rgba(23, 23, 37, 0.04)',
+  borderColor: '#F1F1F5',
+  borderLight: '#FAFAFB',
+  green: '#0062FF',
+  bodyColor: '#E5E5E5',
+  button: '#2196F3',
+  progressActive: '#E2E2EA',
+  progressLine: '#0062FF',
+  coinColor: '#696974',
+};
