@@ -49,8 +49,7 @@ const styles = StyleSheet.create({
     marginRight: 24,
   },
   shadowProp: {
-    margin: 10,
-    // shadowColor: colors.shadowColor,
+    shadowColor: colors.shadowColor,
     shadowOffset: {
       width: 0,
       height: 2,
