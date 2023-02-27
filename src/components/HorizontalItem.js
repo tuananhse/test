@@ -31,7 +31,10 @@ const HorizontalItem = ({data}) => {
             )}
             {data.number} Coins
           </Text>
-          <Text style={styles.desTxt}>{data.description}</Text>
+          <Text numberOfLines={3} style={styles.desTxt}>
+            {data.description}
+          </Text>
+          {data.link && <Text style={styles.link}>Insufficient coins</Text>}
         </View>
       </View>
     </TouchableOpacity>
@@ -43,23 +46,28 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: colors.borderColor,
     borderRadius: 8,
-    maxWidth: 200,
+    maxWidth: 199,
     minHeight: 240,
     backgroundColor: colors.white,
     marginRight: 24,
+    marginBottom: 10,
   },
   shadowProp: {
-    shadowColor: colors.shadowColor,
     shadowOffset: {
       width: 0,
       height: 2,
     },
-    shadowOpacity: 0.1,
+    shadowOpacity: 0.09,
     shadowRadius: 8,
     elevation: 5,
   },
   content: {
     padding: 16,
+  },
+  link: {
+    color: colors.green,
+    fontSize: 14,
+    paddingTop: 6,
   },
   coinTxt: {
     fontSize: 16,

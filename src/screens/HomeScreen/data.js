@@ -13,6 +13,20 @@ export const data = [
       {
         id: 2,
         number: 1000,
+        link: true,
+        description: '70% discount top-up on your Shell Petrol Card',
+        image: require('../../../assets/bgFirst.png'),
+      },
+      {
+        id: 3,
+        number: 1,
+        description:
+          '50% discount for every $100 top-up on your Shell Petrol Card',
+        image: require('../../../assets/bgFirst.png'),
+      },
+      {
+        id: 4,
+        number: 1000,
         description:
           '50% discount for every $100 top-up on your Shell Petrol Card',
         image: require('../../../assets/bgFirst.png'),

@@ -7,7 +7,8 @@
 
 import React from 'react';
 import {SafeAreaView, StatusBar, StyleSheet} from 'react-native';
-import HomeScreen from './src/screens/HomeScreen';
+// import HomeScreen from './src/screens/HomeScreen';
+import RouteContainer from './src/routes';
 function App(): JSX.Element {
   return (
     <SafeAreaView style={styles.container}>
@@ -16,7 +17,7 @@ function App(): JSX.Element {
         barStyle="light-content"
         translucent={true}
       />
-      <HomeScreen />
+      <RouteContainer />
     </SafeAreaView>
   );
 }
